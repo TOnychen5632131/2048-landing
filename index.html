@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 遊戲</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        .features, .download, .privacy {
+            margin: 40px 0;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            margin-top: 40px;
+            color: #aaa;
+        }
+        .privacy-text {
+            text-align: left;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>歡迎來到 2048 遊戲世界</h1>
+        <p>通過簡單的滑動操作，將相同數字的方塊合併，不斷挑戰更高的分數，最終達到2048！</p>
+        
+        <div class="features">
+            <h2>遊戲特色</h2>
+            <p>簡單易上手，任何人都能快速掌握遊戲規則。</p>
+            <p>多種模式：經典模式、挑戰模式、限時模式等多種玩法，永不枯燥。</p>
+            <p>保存進度：隨時保存遊戲進度，不用擔心遊戲數據丟失。</p>
+            <p>精美設計：簡潔而不失精緻的畫面，給你最佳的視覺享受。</p>
+        </div>
+        
+        <div class="download">
+            <h2>立即下載</h2>
+            <a href="#" class="button">App Store</a>
+        </div>
+        
+        <div class="privacy">
+            <h2>隱私協議</h2>
+            <div class="privacy-text">
+                <p>我們尊重並保護所有使用我們服務用戶的個人隱私權。為了給您提供更準確、更有個性化的服務，本應用會按照本隱私權政策的規定使用和披露您的個人信息。但本應用將以高度的勤勉、審慎義務對待這些信息。除本隱私權政策另有規定外，在未徵得您事先許可的情況下，本應用不會將這些信息對外披露或向第三方提供。本應用會不時更新本隱私權政策。 您在同意本應用服務使用協議之時，即視為您已經同意本隱私權政策全部內容。本隱私權政策屬於本應用服務使用協議不可分割的一部分。</p>
+
+                <h2>1. 適用範圍</h2>
+                <p>在您註冊本應用帳號時，您根據本應用要求提供的個人註冊信息；在您使用本應用網絡服務，或訪問本應用平台網頁時，本應用自動接收並記錄的您的瀏覽器和電腦上的信息，包括但不限於您的IP地址、瀏覽器類型、使用語言、訪問日期和時間、軟件和硬件特徵信息及您需求的網頁記錄等數據；本應用通過合法途徑從商業夥伴處取得的用戶個人數據。</p>
+
+                <h2>2. 信息使用</h2>
+                <p>本應用不會向任何無關第三方提供、出售、出租、分享或交易您的個人信息，除非事先得到您的許可，或該第三方和本應用（含本應用關聯公司）單獨或共同為您提供服務，且在該服務結束後，其將被禁止訪問包括其以前能夠訪問的所有這些資料。</p>
+
+                <h2>3. 信息披露</h2>
+                <p>在如下情況下，本應用將依據您的個人意願或法律的規定全部或部分的披露您的個人信息：已經取得您的同意；根據法律的有關規定，或者行政或司法機構的要求，向第三方或者行政、司法機構披露；如您出現違反中國有關法律、法規或者本應用服務協議或相關規則的情況，需要向第三方披露；其它本應用根據法律、法規或者網站政策認為合適的披露。</p>
+
+                <h2>4. 信息存儲和交換</h2>
+                <p>本應用收集的有關您的信息和資料將保存在本應用及（或）其關聯公司的服務器上，這些信息和資料可能傳送至您所在國家、地區或本應用收集信息和資料所在地的境外並在境外被訪問、存儲和展示。</p>
+
+                <h2>5. Cookie的使用</h2>
+                <p>在您未拒絕接受cookies的情況下，本應用會在您的計算機上設置或取用cookies，以便您能登錄或使用依賴於cookies的本應用服務或功能。本應用使用cookies可為您提供更加周到的個性化服務，包括推廣服務。您有權選擇接受或拒絕接受cookies。您可以通過修改瀏覽器設置的方式拒絕接受cookies。但如果您選擇拒絕接受cookies，則您可能無法登錄或使用依賴於cookies的本應用網絡服務或功能。</p>
+
+                <h2>6. 信息安全</h2>
+                <p>本應用帳號均有安全保護功能，請妥善保管您的用戶名及密碼。本應用將通過用戶密碼加密等安全措施確保您的信息不丟失，不被濫用和變造。儘管有前述安全措施，但同時也請您注意在信息網絡上不存在“絕對的安全”。</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 2048 遊戲. 版權所有.</p>
+    </footer>
+</body>
+</html>
